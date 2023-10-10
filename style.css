@@ -1,4 +1,82 @@
 html body{
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
+  background-color: #FAFAFA;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  z-index: 0;
+}
+::-webkit-scrollbar-track {
+  background: #252525;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--gradient-primary, linear-gradient(180deg, #BE7DFF 0%, #7F4EB0 100%));
+  border-radius: 5px;
+}
+/* navbar */
+.navbar{
+  background-color: #FAFAFA;
+  z-index: 2;
+}
+.active{
+  font-weight: 600;
+}
+a.nav-link.active{
+  background: var(--gradient-primary, linear-gradient(180deg, #BE7DFF 0%, #7F4EB0 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Section Hero */
+.hero{ 
+  z-index: 1;
+  height: 100vh;
+  width: 100%;
+  background: var(--gradient-primary, linear-gradient(180deg, #BE7DFF 0%, #7F4EB0 100%));
+}
+.hero img{
+  height: 85vh;
+}
+.style-text h1{
+  font-size: 3.2rem;
+  font-weight: 600;
+  color:#FAFAFA;
+}
+.style-text h1 span{
+  background: var(--Gradient-1, linear-gradient(180deg, #E8EB5E 0%, #5AD64F 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.style-text p{
+  line-height: 140%;
+  font-size: 1rem;
+  color: #c2c2c2;
+}
+
+/* Section Mission */
+.mission{
+  z-index: 1;
+  height: 100vh;
+  width: 100%;
+}
+.style-text-2 h1{
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: #252525;
+}
+.style-text-2 p{
+  line-height: 140%;
+  font-size: 1rem;
+  color: #c2c2c2;
+}
+
+/* Section Service */
+.service{ 
+  z-index: 1;
+  height: 100vh;
+  width: 100%;
+  background: var(--gradient-primary, linear-gradient(180deg, #BE7DFF 0%, #7F4EB0 100%));
 }
