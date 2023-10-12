@@ -109,16 +109,13 @@ a.nav-link.active {
 
 .text {
   color: #fafafa;
-<<<<<<< HEAD
     font-size: 1rem;
     width: 100%;
     margin: auto;
-=======
   font-size: 1rem;
   width: 100%;
   text-align: center;
   margin: auto;
->>>>>>> 9f780e4020e230740cf2c2825eb320990db30b2b
 }
 
 .subscribe {
@@ -130,31 +127,20 @@ a.nav-link.active {
     linear-gradient(180deg, #be7dff 0%, #7f4eb0 100%)
   );
 }
-
-<<<<<<< HEAD
 .text h1{
-=======
-h1 {
-  text-align: center;
->>>>>>> 9f780e4020e230740cf2c2825eb320990db30b2b
-  padding: 55px;
+  text-align: center;  padding: 55px;
   text-align: center;
   margin: 10px;
 }
 p {
   text-align: center;
   line-height: 140%;
-}
-<<<<<<< HEAD
-.newslater h1{
+}.newslater h1{
   padding: 55px;
   text-align: center;
   margin: 10px;
 }
-.news{
-=======
 .news {
->>>>>>> 9f780e4020e230740cf2c2825eb320990db30b2b
   width: 380px;
   max-width: 100%;
   position: relative;
