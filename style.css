@@ -1,6 +1,6 @@
 html body {
   font-size: 16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: #fafafa;
 }
 ::-webkit-scrollbar {
@@ -11,7 +11,10 @@ html body {
   background: #252525;
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--gradient-primary, linear-gradient(180deg, #be7dff 0%, #7f4eb0 100%));
+  background: var(
+    --gradient-primary,
+    linear-gradient(180deg, #be7dff 0%, #7f4eb0 100%)
+  );
   border-radius: 5px;
 }
 /* navbar */
@@ -23,7 +26,10 @@ html body {
   font-weight: 600;
 }
 a.nav-link.active {
-  background: var(--gradient-primary, linear-gradient(180deg, #be7dff 0%, #7f4eb0 100%));
+  background: var(
+    --gradient-primary,
+    linear-gradient(180deg, #be7dff 0%, #7f4eb0 100%)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -34,7 +40,10 @@ a.nav-link.active {
   z-index: 1;
   height: 100vh;
   width: 100%;
-  background: var(--gradient-primary, linear-gradient(180deg, #be7dff 0%, #7f4eb0 100%));
+  background: var(
+    --gradient-primary,
+    linear-gradient(180deg, #be7dff 0%, #7f4eb0 100%)
+  );
 }
 .hero img {
   height: 85vh;
@@ -43,9 +52,13 @@ a.nav-link.active {
   font-size: 3.2rem;
   font-weight: 600;
   color: #fafafa;
+  margin-bottom: 5px;
 }
 .style-text h1 span {
-  background: var(--Gradient-1, linear-gradient(180deg, #e8eb5e 0%, #5ad64f 100%));
+  background: var(
+    --Gradient-1,
+    linear-gradient(180deg, #e8eb5e 0%, #5ad64f 100%)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -78,56 +91,63 @@ a.nav-link.active {
   z-index: 1;
   height: 100vh;
   width: 100%;
-  background: var(--gradient-primary, linear-gradient(180deg, #be7dff 0%, #7f4eb0 100%));
+  background: var(
+    --gradient-primary,
+    linear-gradient(180deg, #be7dff 0%, #7f4eb0 100%)
+  );
 }
 
 .ajak {
   width: 100%;
-    height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(asset/section\ CTA-img.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(asset/section\ CTA-img.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .text {
   color: #fafafa;
-    font-size: 1rem;
-    width: 100%;
-    text-align: center;
-    margin: auto;
+  font-size: 1rem;
+  width: 100%;
+  text-align: center;
+  margin: auto;
 }
 
 .subscribe {
   z-index: 1;
   height: 100vh;
   width: 100%;
-  background: var(--gradient-primary, linear-gradient(180deg, #be7dff 0%, #7f4eb0 100%));
+  background: var(
+    --gradient-primary,
+    linear-gradient(180deg, #be7dff 0%, #7f4eb0 100%)
+  );
 }
 
-h1{
+h1 {
   text-align: center;
   padding: 55px;
   margin: 10px;
 }
-p{
+p {
   text-align: center;
   line-height: 140%;
 }
-.news{
+.news {
   width: 380px;
   max-width: 100%;
   position: relative;
   margin: 0 auto;
 }
-.news form input:first-child{
-  display:inline-block;
+.news form input:first-child {
+  display: inline-block;
   width: 100%;
   padding: 14px 130px 14px 15px;
   border: 2px solid #dccc15;
   outline: none;
 }
-.news form input:last-child{
+.news form input:last-child {
   position: absolute;
   display: inline-block;
   outline: none;
@@ -153,7 +173,7 @@ p{
   left: 0;
   background-color: #553179;
 }
-.footer img{
+.footer img {
   position: absolute;
   width: 20px;
   height: 19px;
@@ -422,7 +442,7 @@ p{
   white-space: nowrap;
 }
 /*cycle*/
-.cycle3{
+.cycle3 {
   width: 100%;
   position: relative;
 }
@@ -432,16 +452,18 @@ p{
   justify-content: space-around;
   flex-wrap: wrap;
   box-sizing: border-box;
+  margin-top: 4rem;
 }
 .cycle3 {
   width: 1355px;
   height: 650px;
 }
-.cycle1 p{
+.cycle1 p {
+  margin-top: 5rem;
   text-align: center;
   height: 20px;
 }
-.text-center h2{
+.text-center h2 {
   margin: 20;
   text-align: center;
 }
@@ -487,7 +509,10 @@ p{
   color: #000000;
 }
 .style-text-2 h2 span {
-  background: var(--Gradient-1, linear-gradient(180deg, #e8eb5e 0%, #ed0303 100%));
+  background: var(
+    --Gradient-1,
+    linear-gradient(180deg, #e8eb5e 0%, #ed0303 100%)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -498,13 +523,25 @@ p{
   z-index: 1;
   height: 100vh;
   width: 100%;
-  background: var(--gradient-primary, linear-gradient(180deg, #be7dff 0%, #7f4eb0 100%));
+  background: var(
+    --gradient-primary,
+    linear-gradient(180deg, #be7dff 0%, #7f4eb0 100%)
+  );
   position: relative;
   padding: 0% 10% 10%;
 }
-.text-center h2 span {
+
+.text-center-donation {
+  margin: 20;
+  text-align: center;
+}
+
+.text-center-donation h2 span {
   height: 20vh;
-  background: var(--Gradient-1, linear-gradient(180deg, #e8eb5e 0%, #03ed07 100%));
+  background: var(
+    --Gradient-1,
+    linear-gradient(180deg, #00ff04 0%, #ffffff 100%)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
