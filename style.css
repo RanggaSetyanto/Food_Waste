@@ -102,9 +102,6 @@ a.nav-link.active {
   height: 50vh;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(asset/section\ CTA-img.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .text {
@@ -129,14 +126,6 @@ a.nav-link.active {
 }
 .text h1{
   text-align: center;  padding: 55px;
-  text-align: center;
-  margin: 10px;
-}
-p {
-  text-align: center;
-  line-height: 140%;
-}.newslater h1{
-  padding: 55px;
   text-align: center;
   margin: 10px;
 }
