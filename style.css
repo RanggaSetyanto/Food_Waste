@@ -98,8 +98,8 @@ a.nav-link.active {
 }
 
 .ajak {
-  width: 100%;
-  height: 100vh;
+  width: auto;
+  height: 50vh;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(asset/section\ CTA-img.png);
   background-size: cover;
@@ -117,7 +117,7 @@ a.nav-link.active {
 
 .subscribe {
   z-index: 1;
-  height: 100vh;
+  height: 50vh;
   width: 100%;
   background: var(
     --gradient-primary,
@@ -164,7 +164,9 @@ p {
   height: 394px;
   background-color: #553179;
 }
-
+.footer{
+  width: 100vw;
+}
 .box .footer {
   position: fixed;
   width: 1440px;
@@ -565,4 +567,11 @@ p {
   display: flex;
   flex-direction: column;
   margin: 1px 5px;
+}
+
+/* footer */
+footer{
+  background-color: #553179;
+  color: #fafafa;
+  font-size: 16px;
 }
