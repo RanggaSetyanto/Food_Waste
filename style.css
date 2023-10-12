@@ -94,7 +94,6 @@ a.nav-link.active {
   color: #fafafa;
     font-size: 1rem;
     width: 100%;
-    text-align: center;
     margin: auto;
 }
 
@@ -105,14 +104,19 @@ a.nav-link.active {
   background: var(--gradient-primary, linear-gradient(180deg, #be7dff 0%, #7f4eb0 100%));
 }
 
-h1{
-  text-align: center;
+.text h1{
   padding: 55px;
+  text-align: center;
   margin: 10px;
 }
 p{
   text-align: center;
   line-height: 140%;
+}
+.newslater h1{
+  padding: 55px;
+  text-align: center;
+  margin: 10px;
 }
 .news{
   width: 380px;
