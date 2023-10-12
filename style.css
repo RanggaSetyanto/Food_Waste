@@ -109,6 +109,9 @@ a.nav-link.active {
 
 .text {
   color: #fafafa;
+    font-size: 1rem;
+    width: 100%;
+    margin: auto;
   font-size: 1rem;
   width: 100%;
   text-align: center;
@@ -124,15 +127,18 @@ a.nav-link.active {
     linear-gradient(180deg, #be7dff 0%, #7f4eb0 100%)
   );
 }
-
-h1 {
+.text h1{
+  text-align: center;  padding: 55px;
   text-align: center;
-  padding: 55px;
   margin: 10px;
 }
 p {
   text-align: center;
   line-height: 140%;
+}.newslater h1{
+  padding: 55px;
+  text-align: center;
+  margin: 10px;
 }
 .news {
   width: 380px;
