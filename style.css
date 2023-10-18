@@ -69,6 +69,10 @@ a.nav-link.active {
   color: #c2c2c2;
 }
 
+.style-text a{
+  background-color: #FF8A00;
+}
+
 /* Section Mission */
 .mission {
   z-index: 1;
@@ -84,6 +88,10 @@ a.nav-link.active {
   line-height: 140%;
   font-size: 1rem;
   color: #c2c2c2;
+}
+
+.style-text-2 a{
+    background-color: #FF8A00;
 }
 
 /* Section Service */
@@ -514,6 +522,8 @@ a.nav-link.active {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
 
 /* Section Stories */
 .stories {
