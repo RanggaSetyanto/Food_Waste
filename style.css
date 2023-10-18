@@ -564,6 +564,24 @@ a.nav-link.active {
   margin: 1px 5px;
 }
 
+/* login */
+.login{
+  border-radius: 50px;
+}
+
+.box-area{
+  width: 930px;
+  border-radius: 20px;
+}
+
+.featured-image img{
+  border-radius: 20px;
+}
+
+.header-text h2{
+  margin-top: 40px;
+}
+
 /* footer */
 footer{
   background-color: #553179;
