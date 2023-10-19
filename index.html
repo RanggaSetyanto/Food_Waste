@@ -1,176 +1,300 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- CSS External-->
-    <link rel="stylesheet" href="style.css" />
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-
-    <!-- Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-
-    <!-- Icon -->
-    <link rel="icon" href="asset/logo.png" type="image/png" />
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Food Waste</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Icon -->
+    <link rel="icon" href="img/Logo.png" type="image/png" />
   </head>
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 position-fixed w-100">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="asset/logo.png" alt="" width="80" height="auto" />
-        </a>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ms-auto">
-            <a class="nav-link active mx-2" aria-current="page" href="#">Home</a>
-            <a class="nav-link mx-2 text-black-50" href="cycle.html">Cycle</a>
-            <a class="nav-link mx-2 text-black-50" href="#">Saving</a>
-            <a class="nav-link mx-2 me-4 text-black-50" href="Donation.html">Donation</a>
-            <a name="" id="" class="btn btn-primary px-4" href="login.html" role="button">Sign In</a>
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="img/Logo.png" alt="" width="80" height="auto" />
+          </a>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link custom-link active mx-2" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link custom-link mx-2" href="cycle.html">Cycle</a>
+              <a class="nav-link custom-link mx-2" href="saving.html">Saving</a>
+              <a class="nav-link custom-link mx-2 me-4" href="donation.html">Donation</a>
+              <a name="" id="" class="btn btn-custom px-4" href="#" role="button">Sign In</a>
+            </div>
           </div>
         </div>
-      </div>
-    </nav>
+      </nav>
 
-    <!-- Section Hero -->
-    <section class="hero">
-      <div class="container h-100">
-        <div class="row h-100">
-          <div class="col-md-6 my-auto style-text pt-5">
-            <h1 class="my-3">
-              Give Your <span>Food</span> <br />
-              For The <span>Better Earth</span>
-            </h1>
-            <p class="my-3">Save the Earth with Simple Actions! Join Us in Fighting Food Waste. Start Here to Dispose of Food Waste Wisely. Together, We Can Change the World.</p>
-            <a href="#" class="btn btn-primary btn-lg my-3">Action Now</a>
-          </div>
-          <div class="col-md-6 mt-auto text-center">
-            <img src="asset/section hero-img.png" alt="" />
-          </div>
-        </div>
+      <!-- Section Hero -->
+      <div class="hero">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-md-12 my-auto text-center">
+                    <h1 class="my-2">
+                        Give Your <span>Food</span> <br />
+                        For The <span>Better Earth</span>
+                    </h1>
+                    <p class="my-2">Save the Earth with Simple Actions! Join Us in Fighting Food Waste. <br>Start Here to Dispose of Food Waste Wisely. Together, We Can Change the World.</p>
+                    <a href="#" class="btn btn-custom my-3">Action Now</a>
+                </div>
+            </div>
+            <div class="highlight">
+                <div class="container">
+                    <div class="row h-100 align-items-center text-center">
+                        <div class="col-md-2 pt-2">
+                            <h1>7</h1>
+                            <p>Year Experience</p>
+                        </div>
+                        <div class="col-md-1">
+                            <div class="line d-flex align-items-center"></div>
+                        </div>
+                        <div class="col-md-2 pt-4">
+                            <h1>2</h1>
+                            <p>Opened in the country</p>                  
+                        </div>
+                        <div class="col-md-1">
+                            <div class="line d-flex align-items-center"></div>
+                        </div>
+                        <div class="col-md-2 pt-2">
+                            <h1>10k+</h1>
+                            <p>Cycle Food</p>
+                        </div>
+                        <div class="col-md-1">
+                            <div class="line d-flex align-items-center"></div>
+                        </div>
+                        <div class="col-md-2 pt-2">
+                            <h1>260+</h1>
+                            <p>Sorting House</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>     
       </div>
-    </section>
 
-    <!-- Section Mission-->
-    <section class="mission">
-      <div class="container h-100">
-        <div class="row h-100">
-          <div class="col-md-6 my-auto text-center">
-            <img src="asset/section 2- img.png" alt="" height="400" />
-          </div>
-          <div class="col-md-6 my-auto style-text-2">
-            <h1 class="my-3">Our Mission <br />Wants to Reduce Food Waste</h1>
-            <p class="my-3">The Food Waste application is designed to form a community that cares about waste to reduce the amount of food waste in Indonesia</p>
-            <a href="#" class="btn btn-lg btn-primary my-3">Our Team</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Section Service -->
-    <section class="service d-flex">
-      <div class="container h-100">
-        <div class="row h-100">
-          <div class="col-sm-12 my-auto">
-            <h1 class="text-center">Our Service</h1>
-            <p class="text-center">We provide several services to support efforts to reduce food waste</p>
-            <br />
-            <div class="row h-100 justify-content-center">
-              <div class="col-sm-3 my-auto">
-                <div class="card">
-                  <div class="card-body">
-                    <img src="asset/ri_recycle-fill.png" alt="" class="mb-2" />
-                    <h5 class="card-title">Food Waste Cycle</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  </div>
+      <!-- Section About -->
+      <section class="about">
+        <div class="container h-100">
+          <div class="row h-100">
+            <div class="col-md-6 my-auto">
+              <img src="img/home/about-img.png" alt="" height="450" />
+            </div>
+            <div class="col-md-6 my-auto">
+              <h1 class="my-3 h1-custom">Our Mission Wants to Reduce Food Waste</h1>
+              <p class="my-3 p-custom">The Food Waste application is designed to form a community that cares about waste to reduce the amount of food waste in Indonesia</p>
+              <div class="card-about row">
+                <div class="col-md-1">
+                    <img src="img/home/Ic_chechlist.svg" alt="" height="30">
+                </div>
+                <div class="col-md-10">
+                    <p p-custom>This application can have a tremendous impact on the environment around you</p>
                 </div>
               </div>
-              <div class="col-sm-3 my-auto">
-                <div class="card">
-                  <div class="card-body">
-                    <img src="asset/ri_recycle-fill (1).png" alt="" class="mb-2" />
-                    <h5 class="card-title">Saving Food</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  </div>
+              <div class="card-about row">
+                <div class="col-md-1">
+                    <img src="img/home/Ic_chechlist.svg" alt="" height="30">
+                </div>
+                <div class="col-md-10">
+                    <p p-custom>This application is designed to form an integrated community and ecosystem</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Service -->
+      <div class="service">
+        <div class="container h-100">
+          <div class="row h-100">
+            <div class="col-md-3 my-auto">
+              <h1 class="h1-custom">Service with Good Impact</h1>
+              <p class="p-custom">Come contribute with us to a better earth just by using our available services</p>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body m-4">
+                  <img src="img/home/ri_recycle-fill.png" alt="" class="mb-2" />
+                  <h3 class="card-title h3-custom h3-custom-add">Food Waste Cycle</h3>
+                  <p class="card-text p-custom p-custom-add">This service provides the opportunity to send leftover food for us to process further.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body m-4">
+                  <img src="img/home/ri_recycle-fill (1).png" alt="" class="mb-2" />
+                  <h3 class="card-title h3-custom h3-custom-add">Food Waste Cycle</h3>
+                  <p class="card-text p-custom p-custom-add">This service provides the opportunity to process food (AI feature) with a long period of food security</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
 
-    <!-- Section Ajak -->
-    <section class="ajak">
-      <div class="container h-100">
-        <div class="row h-100">
-          <div class="col-sm-12 my-auto text-center">
-            <p class="fw-bold fs-2 text-white">Mari Aksi Bersama, Guna Bumi Yang Lebih Baik</p>
+      <!-- Section Change -->
+      <section class="change mb-4">
+        <div class="container h-100">
+          <div class="row h-100">
+            <div class="col-md-6 my-auto">
+              <img src="img/home/3-img.png" alt="" height="400" />
+            </div>
+            <div class="col-md-6 my-auto">
+              <h1 class="my-3 h1-custom">Change Starts From Ourselves</h1>
+              <p class="my-3 p-custom">This application invites to form a community that is able to move to create an environment free of food waste so that it can improve people's good consumption patterns.</p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Section Subscribe -->
-    <section class="subscribe">
-      <div class="container h-100">
-        <div class="row h-100">
-          <div class="col-sm-12 my-auto">
-            <div class="newslater">
-              <h1 class="fw-bold text-white fs-3 text-center">Subscribe Newslatter Kami</h1>
-              <p class="text-black-50 fs-6 text-center">Jangan sampai terlewat informasi serta berita dari kami. Subscribe sekarang!</p>
-              <div class="news">
-                <form action="">
-                    <input type="email" name="email" placeholder="Masukkan email aktif anda" id="mail">
-                    <input type="submit" value="Subscribe" name="subscribe" >
-                </form>
-            </div>
+      <!-- Section CTA -->
+      <div class="cta">
+        <div class="container h-100">
+          <div class="row h-100">
+            <div class="col-md-12 my-auto">
+              <h1 class="h1-custom h1-custom-add my-auto">Let's take action <br>together, for a <br>better earth</h1>
             </div>
           </div>
         </div>
       </div>
-    </section>
 
-  <!-- Footer -->
-  <footer>
-    <div class="container h-100">
-      <div class="row h-100">
-        <div class="col-sm-5 my-1">
-          <img src="asset/logo.png" alt="" width="80" height="auto" class="my-3">
-        </div>
-        <div class="col-sm-2 my-4">
-          <p class="text-start fw-bold">POST</p>
-          <p class="text-start">News</p>
-          <p class="text-start">Event</p>
-          <p class="text-start">Blog</p>
-        </div>
-        <div class="col-sm-3 my-4">
-          <p class="text-start fw-bold">PROGRAMS</p>
-          <p class="text-start">Beginner Training</p>
-          <p class="text-start">Next Beginner Training</p>
-          <p class="text-start">Intermediate Training</p>
-          <p class="text-start">Advanced Training</p>
-          <p class="text-start">Professional Training</p>
-          <p class="text-start">Level Up Training</p>
-        </div>
-        <div class="col-sm-2 my-4">
-          <p class="text-start fw-bold">Address</p>
-          <p class="text-start">Jl. Kh. Wahid Hasyim No.76, Cipeujeuh Wetan, Kec. Lemahabang, Kabupaten Cirebon, Jawa Barat, 45183</p>
-          <p class="text-start">(0231) 635308</p>
-          <p class="text-start">sportyan@gmail.com</p>
+      <!-- Section Feedback -->
+      <div class="feedback">
+        <div class="container h-100">
+          <div class="row h-100">
+            <div class="col-md-5 my-auto">
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active carousel-custom">
+                    <div class="container-text mx-5">
+                      <h3 class="h3-custom">Rani Alamsyah</h3>
+                      <p class="p-custom">Iwas very enjoy to using this website and i'm happy to sharing on my friend</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item carousel-custom">
+                    <div class="container-text mx-5">
+                      <h3 class="h3-custom">Rani Alamsyah</h3>
+                      <p class="p-custom">Iwas very enjoy to using this website and i'm happy to sharing on my friend</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item carousel-custom">
+                    <div class="container-text mx-5">
+                      <h3 class="h3-custom">Rani Alamsyah</h3>
+                      <p class="p-custom">Iwas very enjoy to using this website and i'm happy to sharing on my friend</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-6 my-auto">
+              <h1 class="h1-custom">What People Are Saying About Us</h1>
+              <p class="p-custom">We try to provide the best and maximum service for your satisfaction using our platform</p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+      <!-- Ssection Subscribe -->
+      <div class="subscribe">
+        <div class="container h-100">
+          <div class="row h-100">
+            <div class="col-md-6 my-auto">
+              <h1 class="h1-custom h1-custom-add my-auto">Subscribe Our Newsletter</h1>
+              <p class="p-custom p-custom-add">Join our mailing list now and you can get many benefits</p>
+              <div class="row pt-3">
+                <div class="col-md-7">
+                  <input type="email" class="form-control" id="email" placeholder="Email">
+                </div>
+                <div class="col-md-3">
+                  <button class="btn btn-style btn-style-add" type="submit">Subscribe</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer>
+        <div class="container h-100">
+          <div class="row pt-4 align-items-center">
+            <div class="col-md-6 my-auto">
+              <img src="img/Logo.png" alt="" height="60">
+            </div>
+            <div class="col-md-6">
+              <div class="contaier-img text-end my-auto">
+                <img src="img/home/Logo Instagram.png" alt="" height="40" class="mx-2">
+                <img src="img/home/Logo Facebook.png" alt="" height="40" class="mx-2">
+                <img src="img/home/Logo Twitter.png" alt="" height="40" class="mx-2">
+                <img src="img/home/Logo Linkedin.png" alt="" height="40"class="ms-2">
+              </div>
+            </div>
+          </div>
+          <div class="row pt-2">
+            <div class="col-sm-12">
+              <hr>
+            </div>
+          </div>
+          <div class="row pt-2">
+            <div class="col-md-2">
+              <h3 class="text-start h3-custom-add">POST</h3>
+              <p class="text-start p-custom-add">News</p>
+              <p class="text-start p-custom-add">Event</p>
+              <p class="text-start p-custom-add">Blog</p>
+            </div>
+            <div class="col-md-3">
+              <h3 class="text-start h3-custom-add">PROGRAMS</h3>
+              <p class="text-start p-custom-add">Beginner Training</p>
+              <p class="text-start p-custom-add">Next Beginner Training</p>
+              <p class="text-start p-custom-add">Intermediate Training</p>
+              <p class="text-start p-custom-add">Advanced Training</p>
+              <p class="text-start p-custom-add">Professional Training</p>
+              <p class="text-start p-custom-add">Level Up Training</p>
+            </div>
+            <div class="col-md-3">
+              <h3 class="text-start h3-custom-add">Address</h3>
+              <p class="text-start p-custom-add">Jl. Kh. Wahid Hasyim No.76, Cipeujeuh Wetan, Kec. Lemahabang, Kabupaten Cirebon, Jawa Barat, 45183</p>
+              <p class="text-start p-custom-add">(0231) 635308</p>
+              <p class="text-start p-custom-add">sportyan@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!-- Copyright -->
+      <div class="copyright pt-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <p class="p-custom-add">&copy;2023 | Food Waste Indonesia</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   </body>
 </html>
